@@ -1,0 +1,1 @@
+Foresnics is about exploring different files and their properties. Sometimes flags could be hidden in the metadata, like the flag.
