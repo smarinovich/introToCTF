@@ -5,7 +5,7 @@ An introductory CTF
 
 This is where the websites file were stored.
 
-## `\c Branch
+## `\c` Branch
 
 This is a branch formated for all the challenges, and how they can be solve. Each folder include
 - chalAAA#.txt: A challenge file, with the challenge blurb
