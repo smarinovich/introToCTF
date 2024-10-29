@@ -1,1 +1,0 @@
-The arcade is refering to the poliybus arcade console, and the cipher is the poliybus cipher. By putting the numbers into a standard poliybus cipher, we get 'polyibuscubed'.
