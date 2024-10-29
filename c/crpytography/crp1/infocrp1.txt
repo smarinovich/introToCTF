@@ -1,0 +1,1 @@
+Ciphers allow for users to encode messages. A poliybus cipher is an example where numbers are used instead of letters, and all letters are put into a grid.

@@ -1,0 +1,3 @@
+My Friend wrote some funny numbers - he's a bit of an arcade nerd but I don't know what they mean. If you use them correctly, you could make a flag
+
+ITC{35 34 31 54 12 24 45 43 13 45 12 15 14}
