@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- All the page content is copied out of the /c/ directory-->
 
 <head>
     <title>Challenges - Intro to CTF</title>
@@ -10,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
@@ -35,47 +37,54 @@
     </nav>
 
     <div class="text-center container">
-        More challenges of each type will appear as you complete them. To reset the challenges, clear your cookies.
+        More challenges of each type will appear as you complete them. To reset the challenges, press the button below
+        <form>
+            <input type="button" value="Reset Challenges" id="clear">
+        </form>
         <div class="accordion" id="accordionExample">
             <div class="card">
-                <div class="card-header" id="headingTwo">
+                <div class="card-header" id="for1Head">
                     <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                            data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Collapsible Group Item #2
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#for1"
+                            aria-expanded="false" aria-controls="for1" id="for1but">
+                            Forensics #1
                         </button>
                     </h5>
                 </div>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div id="for1" class="collapse" aria-labelledby="for1Head" data-parent="#accordionExample">
                     <div class="card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-                        3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
-                        laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
-                        coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
-                        anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
-                        occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard
-                        of them accusamus labore sustainable VHS.
+                        My friend has this cool photo, I wonder what the Gecko's called?<br>
+                        <a href="src/gecko.jpg" download>gecko.jpg</a>
+                        <form>
+                            <label for="for1flag">Flag:</label><br>
+                            <input type="text" id="for1flag" name="for1flag" value="">
+                            <input type="button" value="Submit" id="for1submit">
+                        </form>
+                        <div class="complete incomplete" id="for1done">Flag Complete!!!</div>
                     </div>
                 </div>
             </div>
             <div class="card">
-                <div class="card-header" id="headingThree">
+                <div class="card-header" id="crp1Head">
                     <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Collapsible Group Item #3
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#crp1"
+                            aria-expanded="false" aria-controls="crp1" id="crp1but">
+                            Cryptology #1
                         </button>
                     </h5>
                 </div>
-                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div id="crp1" class="collapse" aria-labelledby="crp1Head" data-parent="#accordionExample">
                     <div class="card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-                        3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
-                        laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
-                        coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
-                        anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
-                        occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard
-                        of them accusamus labore sustainable VHS.
+                        My Friend wrote some funny numbers - he's a bit of an arcade nerd but I don't know what they
+                        mean. If you use them correctly, you could make a flag<br>
+
+                        ITC{35 34 31 54 12 24 45 43 13 45 12 15 14}
+                        <form>
+                            <label for="crp1flag">Flag:</label><br>
+                            <input type="text" id="crp1flag" name="crp1flag" value="">
+                            <input type="button" value="Submit" id="crp1submit">
+                        </form>
+                        <div class="complete incomplete" id="crp1done">Flag Complete!!!</div>
                     </div>
                 </div>
             </div>
@@ -88,5 +97,6 @@
 
 
 </body>
+<script type="module" src="script/chal.js"></script>
 
 </html>

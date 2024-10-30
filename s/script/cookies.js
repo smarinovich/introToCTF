@@ -1,13 +1,14 @@
 // Cookie functions taken from https://www.w3schools.com/js/js_cookies.asp
-function setCookie(cname, cvalue) {
+function setCookie(cvalue) {
     const d = new Date();
     d.setTime(d.getTime() + (90 * 24 * 60 * 60 * 1000)); // Files will expire in 1 month
     let expires = "expires=" + d.toUTCString();
-    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    document.cookie = "flags=" + cvalue + ";" + expires + ";path=/";
+    location.reload();
 }
 
-function getCookie(cname) {
-    let name = cname + "=";
+function getCookie() {
+    let name = "flags=";
     let decodedCookie = decodeURIComponent(document.cookie);
     let ca = decodedCookie.split(';');
     for (let i = 0; i < ca.length; i++) {
@@ -22,4 +23,9 @@ function getCookie(cname) {
     return "";
 }
 
-export { setCookie, getCookie };
+function clearCookie() {
+    document.cookie = "flags=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+    location.reload();
+}
+
+export { setCookie, getCookie, clearCookie };

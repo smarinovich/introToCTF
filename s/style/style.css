@@ -1,0 +1,7 @@
+.complete {
+    color: #00ff00;
+}
+
+.incomplete {
+    visibility: hidden;
+}
