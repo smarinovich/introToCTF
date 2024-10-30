@@ -5,6 +5,8 @@ An introductory CTF
 
 This is where the websites file were stored.
 
+The site (and functionality) can be accessed from ![smarinovich.github.io/introToCTF/s](https://smarinovich.github.io/introToCTF/s)
+
 ## `/c` Branch
 
 This is a branch formated for all the challenges, and how they can be solve. Each folder include
