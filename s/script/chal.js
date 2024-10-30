@@ -22,7 +22,6 @@ $(document).ready(function () {
         return;
     }
     let flagList = flags.split('|');
-    console.log(flagList);
     for (let i = 0; i < flagList.length; i++) {
         if (flagList[i].length != 4) {
             continue;

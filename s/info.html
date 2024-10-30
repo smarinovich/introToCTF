@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
@@ -35,14 +36,32 @@
     </nav>
 
     <div class="text-center container">
-        Here's some info on the challenges you completed.
+        Here's some info on the challenges you completed. The more challenges you complete, the more info you'll
+        recieve.
+        <h5><b>Forensics</b></h5>
+        <div id="for">
+            <div id="for1" class="incomplete">
+                Foresnics is about exploring different files and their properties. Sometimes flags could be hidden in
+                the metadata, like the flag.
+            </div>
+        </div>
+        <h5><b>Cryptography</b></h5>
+        <div id="crp">
+            <div id="crp1" class="incomplete">
+                Ciphers allow for users to encode messages. A poliybus cipher is an example where numbers are used
+                instead of letters, and all letters are put into a grid.
+            </div>
+        </div>
     </div>
+    <br>
     <footer class="container-fluid bg-4 text-center" id="footer">
-        Part of 6841 SAP &COPY; S Marinovich.
+        Part of COMP6841 SAP &COPY; S Marinovich.
     </footer>
 
 
 
 </body>
+
+<script type="module" src="script/info.js"></script>
 
 </html>
