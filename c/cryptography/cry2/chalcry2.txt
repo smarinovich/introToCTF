@@ -1,0 +1,3 @@
+Some terminals allow for messages to be encoded, using different bases. Maybe this flag has been too.
+
+SVRDezY0XzdIMHVTYW5EX25VbWIzclN9

@@ -1,0 +1,5 @@
+Firstly this is hexadecimal data, so we need to decode the hexadecimal
+
+This will give us: TEN{ezz_xlyj_depad_ez_dzwgp}
+
+From this, we know that all codes start with ITC, and we can use that as a key, and see that I->T, T->E, C->N, which means all letters are moved 11 places, and then we can apply this rule to all the other letters to get the flag
