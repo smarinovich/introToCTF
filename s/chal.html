@@ -41,8 +41,8 @@
         <form>
             <input type="button" value="Reset Challenges" id="clear">
         </form>
-        <div class="accordion" id="accordionExample">
-            <div class="card">
+        <div class="accordion">
+            <div class="card" id="for1Card">
                 <div class="card-header" id="for1Head">
                     <h5 class="mb-0">
                         <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#for1"
@@ -51,7 +51,7 @@
                         </button>
                     </h5>
                 </div>
-                <div id="for1" class="collapse" aria-labelledby="for1Head" data-parent="#accordionExample">
+                <div id="for1" class="collapse" aria-labelledby="for1Head">
                     <div class="card-body">
                         My friend has this cool photo, I wonder what the Gecko's called?<br>
                         <a href="src/gecko.jpg" download>gecko.jpg</a>
@@ -64,7 +64,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card">
+            <div class="card" id="cry1card">
                 <div class="card-header" id="cry1Head">
                     <h5 class="mb-0">
                         <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#cry1"
@@ -73,7 +73,7 @@
                         </button>
                     </h5>
                 </div>
-                <div id="cry1" class="collapse" aria-labelledby="cry1Head" data-parent="#accordionExample">
+                <div id="cry1" class="collapse" aria-labelledby="cry1Head">
                     <div class="card-body">
                         My Friend wrote some funny numbers - he's a bit of an arcade nerd but I don't know what they
                         mean. If you use them correctly, you could make a flag<br>
@@ -85,6 +85,76 @@
                             <input type="button" value="Submit" id="cry1submit">
                         </form>
                         <div class="complete incomplete" id="cry1done">Flag Complete!!!</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card locked" id="cry2card">
+                <div class="card-header" id="cry2Head">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#cry2"
+                            aria-expanded="false" aria-controls="cry2" id="cry2but">
+                            Cryptography #2
+                        </button>
+                    </h5>
+                </div>
+                <div id="cry2" class="collapse" aria-labelledby="cry2Head">
+                    <div class="card-body">
+                        Some terminals allow for messages to be encoded, using different bases. Maybe this flag has been
+                        too.<br>
+
+                        SVRDezY0XzdIMHVTYW5EX25VbWIzclN9
+                        <form>
+                            <label for="cry2flag">Flag:</label><br>
+                            <input type="text" id="cry2flag" name="cry2flag" value="">
+                            <input type="button" value="Submit" id="cry2submit">
+                        </form>
+                        <div class="complete incomplete" id="cry2done">Flag Complete!!!</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card locked" id="cry3card">
+                <div class="card-header" id="cry3Head">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#cry3"
+                            aria-expanded="false" aria-controls="cry3" id="cry3but">
+                            Cryptography #3
+                        </button>
+                    </h5>
+                </div>
+                <div id="cry3" class="collapse" aria-labelledby="cry3Head">
+                    <div class="card-body">
+                        This data was stolen from a harddrive. It might still be encoded after this.<br>
+
+                        54454e7b657a7a5f786c796a5f64657061645f657a5f647a7767707d
+                        <form>
+                            <label for="cry3flag">Flag:</label><br>
+                            <input type="text" id="cry3flag" name="cry3flag" value="">
+                            <input type="button" value="Submit" id="cry3submit">
+                        </form>
+                        <div class="complete incomplete" id="cry3done">Flag Complete!!!</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card locked" id="cry4card">
+                <div class="card-header" id="cry4Head">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#cry4"
+                            aria-expanded="false" aria-controls="cry4" id="cry4but">
+                            Cryptography #4
+                        </button>
+                    </h5>
+                </div>
+                <div id="cry4" class="collapse" aria-labelledby="cry4Head">
+                    <div class="card-body">
+                        Your final challenge for cryptography. The boss has given you the hint "64 x 2". Good luck!<br>
+
+                        <a href="src/finalChallenge.txt" download>finalChallenge.txt</a>
+                        <form>
+                            <label for="cry4flag">Flag:</label><br>
+                            <input type="text" id="cry4flag" name="cry4flag" value="">
+                            <input type="button" value="Submit" id="cry4submit">
+                        </form>
+                        <div class="complete incomplete" id="cry4done">Flag Complete!!!</div>
                     </div>
                 </div>
             </div>
