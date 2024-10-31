@@ -39,6 +39,6 @@ $("#for1submit").click(function () {
     checkFlag("for1", "ITC{gEx_tH3_g3cK0}");
 });
 
-$("#crp1submit").click(function () {
-    checkFlag("crp1", "ITC{polyibuscubed}");
+$("#cry1submit").click(function () {
+    checkFlag("cry1", "ITC{polyibuscubed}");
 });
