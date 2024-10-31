@@ -1,0 +1,1 @@
+Encoding strategies don't have any restrictions on how many times they can be applied. Some other common strategies for encoding including Morse Code, Subsitution Ciphers and Vigenère Ciphers.

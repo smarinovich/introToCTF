@@ -1,0 +1,1 @@
+Using a base64 decoded put the string in (either through command base 64, or an online website)
