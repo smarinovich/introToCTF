@@ -4,5 +4,6 @@
 
 .incomplete,
 .locked {
+    height: 0;
     visibility: hidden;
 }
