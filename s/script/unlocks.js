@@ -12,6 +12,11 @@ function initUnlocks() {
     unlocks.set("for1", "for2");
     unlocks.set("for2", "for3");
     unlocks.set("for3", "for4");
+
+    //Buffer Overflow
+    unlocks.set("buf1", "buf2");
+    unlocks.set("buf2", "buf3");
+    unlocks.set("buf3", "buf4");
 }
 
 function getUnlocks(flag) {

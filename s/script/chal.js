@@ -73,3 +73,19 @@ $("#cry3submit").click(function () {
 $("#cry4submit").click(function () {
     checkFlag("cry4", "ITC{Cr4p0t0gr4pHY_B0sS}");
 });
+
+$("#buf1submit").click(function () {
+    checkFlag("buf1", "ITC{fG3t5_iS_5111y}");
+});
+
+$("#buf2submit").click(function () {
+    checkFlag("buf2", "ITC{hR_h4T3s_u5}");
+});
+
+$("#buf3submit").click(function () {
+    checkFlag("buf3", "ITC{w3_r_n3a3ly_g0n3}");
+});
+
+$("#buf4submit").click(function () {
+    checkFlag("buf4", "ITC{r1p,_w3_aR3_f1r3D}");
+});

@@ -86,6 +86,25 @@
                 strategies for encoding including Morse Code, Subsitution Ciphers and Vigenère Ciphers.<br>
             </div>
         </div>
+        <h5><b>Buffer Overflows</b></h5>
+        <div id="buf">
+            <div id="buf1" class="incomplete">
+                A buffer overflow is when you overwrite data past the buffer and start altering other parts of memory. A
+                key way this happens is by using gets instead of fgets.<br>
+            </div>
+            <div id="buf2" class="incomplete">
+                Despite how fgets how the safety of limiting the buffer amount, programers sometimes may leave the size
+                buffer too big on fgets, which allows for overwrite.<br>
+            </div>
+            <div id="buf3" class="incomplete">
+                It's safer to write a program that verifies you have something is correct rather then something is
+                wrong. There's only one possible correct answers, while there's infinite incorrect ones. <br>
+            </div>
+            <div id="buf4" class="incomplete">
+                A stack canary is used to ensure the code is not altered. This is a segment in memory which is in the
+                middle of the variables that we may want to change, and is checked after memory input.<br>
+            </div>
+        </div>
     </div>
     <br>
     <footer class="container-fluid bg-4 text-center" id="footer">

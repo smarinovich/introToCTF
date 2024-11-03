@@ -11,3 +11,7 @@
     height: 0;
     visibility: hidden;
 }
+
+.err {
+    color: #ff0000;
+}
