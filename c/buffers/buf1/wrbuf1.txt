@@ -1,0 +1,1 @@
+This is a simple buffer overflow challenge - just enter a value thats over 16 characters, and then the flag is printed.

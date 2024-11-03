@@ -1,0 +1,1 @@
+Despite how fgets how the safety of limiting the buffer amount, programers sometimes may leave the buffer too big, which allows for overwrite

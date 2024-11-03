@@ -1,0 +1,1 @@
+A stack canary is used to ensure the code is not altered. This is a segment in memory which is in the middle of the variables that we may want to change, and is checked after memory input.

@@ -1,0 +1,1 @@
+A buffer overflow is when you overwrite data past the buffer and start altering other parts of memory. A key way this happens is by using gets instead of fgets.

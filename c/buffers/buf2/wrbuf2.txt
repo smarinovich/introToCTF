@@ -1,0 +1,1 @@
+As long as the buffer is 16, but fgets is taking 17 characters, so as long as the input is more then 16 characters it is fine. 

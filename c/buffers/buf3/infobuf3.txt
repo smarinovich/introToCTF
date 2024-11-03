@@ -1,0 +1,1 @@
+It's safer to write a program that verifies you have something is correct rather then something is wrong. There's only one possible correct answers, while there's infinite incorrect ones. 
