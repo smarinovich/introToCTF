@@ -6,12 +6,12 @@
 
 int main(void) {
     int admin = FALSE;
-    int canary = 0xdeadbeef;
+    int canary = 0x0defaced;
     char buffer[16];
     printf("Enter the password: ");
     fgets(&buffer, 24, stdin);
     if (admin == TRUE) {
-        if (canary == 0xdeadbeef) {
+        if (canary == 0x0defaced) {
             printf("Welcome!\nYour flag is: ");
             printFlag();
         } else {
