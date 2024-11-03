@@ -1,0 +1,1 @@
+Social Engineering is about attacking the weakest link in a security system - the human mind. This can be done through deceiving users, gaslighting them and phishing attacks to name a few. In order to protect against this, one must be critical of all the reosources they can access, and what they have.

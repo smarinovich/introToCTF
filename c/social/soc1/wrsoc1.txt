@@ -1,0 +1,1 @@
+There is a link in the message (the letter f is a hyperlink). It links to a text file that says "Nothing Here". The file is called "goto'src/noFlagHere.txt'.txt". The user then goes to that location, and can find the flag.
