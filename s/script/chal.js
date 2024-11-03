@@ -46,6 +46,18 @@ $("#for1submit").click(function () {
     checkFlag("for1", "ITC{gEx_tH3_g3cK0}");
 });
 
+$("#for2submit").click(function () {
+    checkFlag("for2", "ITC{1_l1K3_t0_wR1T3_$tR1N65}");
+});
+
+$("#for3submit").click(function () {
+    checkFlag("for3", "ITC{h1dD3n_1n_d4_f1l3S}");
+});
+
+$("#for4submit").click(function () {
+    checkFlag("for4", "ITC{d0ubL3_p4cKeD}");
+});
+
 $("#cry1submit").click(function () {
     checkFlag("cry1", "ITC{polyibuscubed}");
 });

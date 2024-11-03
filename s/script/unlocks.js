@@ -7,6 +7,11 @@ function initUnlocks() {
     unlocks.set("cry1", "cry2");
     unlocks.set("cry2", "cry3");
     unlocks.set("cry3", "cry4");
+
+    // Forensic
+    unlocks.set("for1", "for2");
+    unlocks.set("for2", "for3");
+    unlocks.set("for3", "for4");
 }
 
 function getUnlocks(flag) {

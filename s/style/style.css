@@ -2,7 +2,11 @@
     color: #00ff00;
 }
 
-.incomplete,
+.incomplete {
+    height: 0;
+    visibility: hidden;
+}
+
 .locked {
     height: 0;
     visibility: hidden;
