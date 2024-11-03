@@ -1,0 +1,2 @@
+Websites host more information then just the html. Sometimes other files, like .txt, .md files are stored for information.
+Webcrawlers will try to help reduce the workload on websites by visiting robots.txt. Developers can use this as a message dump also. Foresnics focuses on your use to explore the present materials. 

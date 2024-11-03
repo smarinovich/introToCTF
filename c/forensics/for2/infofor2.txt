@@ -1,0 +1,1 @@
+Terminals have a series of commands that help with the analysis of files, such as strings (prints out all the printable characters in a file), grep (which can find matching patterns in a file) and binwalk (searches a file for embedded files and exectuable code)
