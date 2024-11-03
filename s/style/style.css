@@ -15,3 +15,9 @@
 .err {
     color: #ff0000;
 }
+
+#hidden {
+    text-decoration: none;
+    color: black;
+    cursor: default;
+}

@@ -89,3 +89,7 @@ $("#buf3submit").click(function () {
 $("#buf4submit").click(function () {
     checkFlag("buf4", "ITC{r1p,_w3_aR3_f1r3D}");
 });
+
+$("#soc1submit").click(function () {
+    checkFlag("soc1", "ITC{ga3light1nG}");
+})
