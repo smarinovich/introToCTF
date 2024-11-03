@@ -8,7 +8,7 @@ int main(void) {
     char buffer[16];
     printf("Enter the password: ");
     fgets(&buffer, 17, stdin);
-    if (admin != 0) {
+    if (admin != FALSE) {
         printf("Welcome!\nYour flag is: ");
         printFlag();
     } else {
