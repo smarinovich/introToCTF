@@ -1,0 +1,1 @@
+Fgets is such a bad function (it sounds so weird), so we replaced it with gets.

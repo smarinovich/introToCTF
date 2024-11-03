@@ -1,0 +1,1 @@
+This program checks that the the admin variable is true, not isn't 0. To do this, the last 4 bytes must 00 00 00 01. This can be done by entering a 16 character phrase, then ending with /x01 (or just a single bit), either through editing a file or pawntools.
