@@ -1,7 +1,7 @@
 // Cookie functions taken from https://www.w3schools.com/js/js_cookies.asp
 function setCookie(cvalue) {
     const d = new Date();
-    d.setTime(d.getTime() + (90 * 24 * 60 * 60 * 1000)); // Files will expire in 1 month
+    d.setTime(d.getTime() + (90 * 24 * 60 * 60 * 1000)); // Files will expire in 3 months
     let expires = "expires=" + d.toUTCString();
     document.cookie = "flags=" + cvalue + ";" + expires + ";path=/";
     location.reload();
