@@ -1,0 +1,2 @@
+Data we may still need to access may still be encoded. This can be encoded as base64, but could also be in any form.
+Compression systems like zip still result in binary data, allowing us to manipulate it and encode it.

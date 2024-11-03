@@ -1,0 +1,1 @@
+Somewhere in this broken file, there might be the flag. If only there was a way to check what strings are in a file?

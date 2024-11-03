@@ -1,0 +1,1 @@
+The hint in the files refers to the string command. Run 'strings for2.jpg' file, and look for the flag.

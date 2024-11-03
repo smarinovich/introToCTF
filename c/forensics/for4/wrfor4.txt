@@ -1,0 +1,3 @@
+The text is encoded in base 64. Uncode it to recieve a zip file. There are 2 routes from here
+1) The flag is visible in the raw data of the zip code
+2) You can unzip the file and explore the files. The flag is located at 'file/def/not/in/here/at/all.txt'
